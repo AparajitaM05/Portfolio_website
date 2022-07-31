@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section {
+    height:500px ;
+    background-color: white;
+    
+
+}
+.hero{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 80px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.hero-text{
+    margin-left: 80px;
+}
+li{
+    width: 200px;
+}
+h1{
+    font-size: 90px;
+    margin:0;
+}
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight:300 ;
+}
+.button{
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #ef744b;
+    text-align: center;
+    font-size: 30px;
+    font-weight:300 ;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.hero-area{
+    display: flex;
+   
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button:hover{
+    background-color: coral;
+
+}.button:active{
+    background-color: darkgray;
+    color: beige;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.logo{
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.social{
+    margin: 10px;
+
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    
+
+}
+h2{
+    font-size: 50px;
+}
+.headshot{
+    width:300px ;
+    border-radius: 150px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.project-card{
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+.project-img {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 125%;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+.project-ink{
+    text-decoration: none;
+    color: aliceblue;
+}
